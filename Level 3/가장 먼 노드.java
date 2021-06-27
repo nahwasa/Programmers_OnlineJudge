@@ -3,6 +3,9 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
+/**
+ * 문제 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+ */
 class Solution {
     public int solution(int n, int[][] edge) {
         int[] v = new int[n+1]; //0;not yet visited, <0;distance
