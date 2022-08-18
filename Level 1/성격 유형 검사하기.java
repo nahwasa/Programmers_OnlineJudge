@@ -1,3 +1,6 @@
+/**
+ * 문제 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+ */
 class Solution {
     private static final String[] INDICATORS = {"RT", "CF", "JM", "AN"};
     public String solution(String[] survey, int[] choices) {
